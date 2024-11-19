@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        .box{
+            border: 2px solid red;
+            width: 500px;
+            position: relative;
+        }
+
+        .minibox{
+            height: 150px;
+            width: 150px;
+            border: 2px solid;
+            font-size: 2rem;
+            text-align: center;
+            align-content: center;
+        }
+        #static {
+           margin-top: 3rem;
+           /* top: 3rem;  */
+           /* position: static; */
+        }
+        #relative {
+            background-color: lightcoral;
+            position: relative;
+            /* margin-top: 3rem; */
+            top: 4rem;
+            /* z-index: 1; */
+        }
+        #absolute{
+            position: absolute;
+            background-color: aqua;
+            /* top: 2rem; */
+            z-index: 2;
+            right: 0;
+            bottom: 0;
+        }
+        #fixed{
+            position: fixed;
+            background-color: rgb(65, 28, 28);
+            right: 1rem;
+            bottom: 1rem;
+            border-radius: 50%;
+        }
+        #sticky{
+            position: sticky;
+            top: 0;
+            background-color: yellowgreen;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Css position tyes:</h1>
+
+    <ol>
+        <li>Static(default)</li>
+        <li>relative(own position)</li>
+        <li>absolute(relative parent's position)</li>
+        <li>fixed(scroll)</li>
+        <li>sticky(scroll)</li>
+    </ol>
+    <!-- ctrl + shift + l -->
+    <!-- ctrl + d -->
+
+    <div class="box">
+        <div class="minibox" id="static">1</div>
+        <div class="minibox" id="relative">2</div>
+        <div class="minibox" id="absolute">3</div>
+        <div class="minibox" id="fixed">4</div>
+    </div>
+    <div class="minibox" id="sticky">5</div>
+    
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, voluptate iure voluptates, perferendis est deleniti nostrum reprehenderit animi iusto fuga ea corporis fugiat distinctio, expedita neque tenetur adipisci in consequuntur!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, voluptate iure voluptates, perferendis est deleniti nostrum reprehenderit animi iusto fuga ea corporis fugiat distinctio, expedita neque tenetur adipisci in consequuntur!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, voluptate iure voluptates, perferendis est deleniti nostrum reprehenderit animi iusto fuga ea corporis fugiat distinctio, expedita neque tenetur adipisci in consequuntur!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, voluptate iure voluptates, perferendis est deleniti nostrum reprehenderit animi iusto fuga ea corporis fugiat distinctio, expedita neque tenetur adipisci in consequuntur!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, voluptate iure voluptates, perferendis est deleniti nostrum reprehenderit animi iusto fuga ea corporis fugiat distinctio, expedita neque tenetur adipisci in consequuntur!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, voluptate iure voluptates, perferendis est deleniti nostrum reprehenderit animi iusto fuga ea corporis fugiat distinctio, expedita neque tenetur adipisci in consequuntur!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, voluptate iure voluptates, perferendis est deleniti nostrum reprehenderit animi iusto fuga ea corporis fugiat distinctio, expedita neque tenetur adipisci in consequuntur!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, voluptate iure voluptates, perferendis est deleniti nostrum reprehenderit animi iusto fuga ea corporis fugiat distinctio, expedita neque tenetur adipisci in consequuntur!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, voluptate iure voluptates, perferendis est deleniti nostrum reprehenderit animi iusto fuga ea corporis fugiat distinctio, expedita neque tenetur adipisci in consequuntur!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, voluptate iure voluptates, perferendis est deleniti nostrum reprehenderit animi iusto fuga ea corporis fugiat distinctio, expedita neque tenetur adipisci in consequuntur!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, voluptate iure voluptates, perferendis est deleniti nostrum reprehenderit animi iusto fuga ea corporis fugiat distinctio, expedita neque tenetur adipisci in consequuntur!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, voluptate iure voluptates, perferendis est deleniti nostrum reprehenderit animi iusto fuga ea corporis fugiat distinctio, expedita neque tenetur adipisci in consequuntur!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, voluptate iure voluptates, perferendis est deleniti nostrum reprehenderit animi iusto fuga ea corporis fugiat distinctio, expedita neque tenetur adipisci in consequuntur!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, voluptate iure voluptates, perferendis est deleniti nostrum reprehenderit animi iusto fuga ea corporis fugiat distinctio, expedita neque tenetur adipisci in consequuntur!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, voluptate iure voluptates, perferendis est deleniti nostrum reprehenderit animi iusto fuga ea corporis fugiat distinctio, expedita neque tenetur adipisci in consequuntur!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, voluptate iure voluptates, perferendis est deleniti nostrum reprehenderit animi iusto fuga ea corporis fugiat distinctio, expedita neque tenetur adipisci in consequuntur!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, voluptate iure voluptates, perferendis est deleniti nostrum reprehenderit animi iusto fuga ea corporis fugiat distinctio, expedita neque tenetur adipisci in consequuntur!</p>
+
+</body>
+
+</html>
